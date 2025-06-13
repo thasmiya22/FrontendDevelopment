@@ -1,0 +1,83 @@
+
+ /* 1. Create a 2x2 grid of cards using CSS Grid.  */
+.grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: gray;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+ /* 2. Build a navbar with Flexbox that centers and spaces links. */
+.navbar {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: #333;
+      padding: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+/* 3. Animate a div to fade in from left. */
+.fade-in-left {
+      opacity: 0;
+      transform: translateX(-50px);
+      animation: fadeInLeft 1.5s forwards;
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      margin: 40px;
+      width: 200px;
+      border-radius: 8px;
+    }
+
+    @keyframes fadeInLeft {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* 4. Use z-index to place one box on top of another. */
+    .box-container {
+      position: relative;
+      height: 200px;
+    }
+
+    .box1, .box2 {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+    }
+
+    .box1 {
+      background-color: red;
+      top: 20px;
+      left: 20px;
+      z-index: 1;
+    }
+
+    .box2 {
+      background-color: blue;
+      top: 60px;
+      left: 60px;
+      z-index: 2;
+    }
+
+    
+

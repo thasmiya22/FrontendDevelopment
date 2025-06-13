@@ -1,0 +1,117 @@
+/* body { 
+    background-color: bisque;
+} */
+/* 
+body p {
+    color: forestgreen;
+}
+
+div {
+    background-color: blueviolet;
+    align-content: center;
+    height:100px;
+    width: 200px;
+}
+
+
+.main {
+    background-color: hotpink;
+}
+
+.main p {
+    color: black;
+}
+
+#typetwo {
+    background-color: darkslategray;
+}
+
+#typetwo h3 {
+    color: greenyellow;
+}
+
+#typetwo p {
+    color: deeppink;
+} */
+
+/* div {
+    background-color: aqua;
+    color: brown;
+} */
+
+/* .idd h3,p {
+    color: red;
+} */
+
+/* div h1 h2 p {
+    background-color: aqua;
+} */
+
+/* div {
+    background-color: blue;
+} */
+/* 
+h1 ~p {
+    color: aqua;
+}
+
+h1:hover {
+    color: red;
+}
+
+h2:focus {
+    color: blue;
+}
+
+h1,h2 {
+    background-color: blueviolet;
+}
+
+div>p {
+    color:chartreuse;
+}
+
+h2+p {
+    background-color: hotpink;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+p::before {
+    content: "";
+} */
+
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 200px auto;
+    font-family: sans-serif;
+}
+
+#title {
+    color: greenyellow;
+    text-align: center;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card:hover {
+    background-color: deeppink;
+}
+
+.card::after {
+    content: "party";
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}

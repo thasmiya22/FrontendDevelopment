@@ -1,0 +1,90 @@
+
+
+.id {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 200px auto;
+    font-family: sans-serif;
+
+}
+h1 {
+    text-align: center;
+}
+/* 
+.mainn {
+    text-align: center;
+} */
+
+.main {
+    align-items: baseline;
+    padding: 39px;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    margin-top: 3px;
+}
+
+.main {
+    background-color: aliceblue;
+    background-image: url();
+    background-position: 0%;
+    margin: auto;
+    margin-top: auto;
+}
+
+
+body {
+    background-color:gray;
+}
+
+table {
+    background-color: lightblue;
+}
+/* form {
+    background-color: darkmagenta;
+} */
+
+div {
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+button {
+
+    background-image: linear-gradient(cornsilk, lightblue);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    margin: 20px auto;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border: 1px solid;
+}
+
+.style {
+    margin: 20px;
+    margin-top: 20px;
+
+}
+
+.mainn {
+    align-items: center;
+    display: flex;
+}
+
+button:hover {
+    font-size: 14px;
+    height:50px;
+}
+
+.main {
+    padding:20px;
+    margin: 10px;
+    
+}
+
+
+
